@@ -1,0 +1,7 @@
+class myMainRoom{
+	public static void main(String[] args){
+		Room myRoom = new Room();
+		myRoom.setWidth(-7);
+		System.out.println(myRoom.getWidth());
+	}
+}
